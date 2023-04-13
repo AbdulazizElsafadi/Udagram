@@ -22,7 +22,7 @@ In the CI, we have the following:
 
 1. Install Dependencies of the front-end and the api. ` npm run frontend:install` ` npm run api:install`
 2. Ensure the code follow the standard format by executing ` npm run lint` command
-3. Build the Front-end and the api to insure the new change didn't break the application. `npm run frontend:build` ``npm run api:build`
+3. Build the Front-end and the api to insure the new change didn't break the application. `npm run frontend:build` `npm run api:build`
 
 ### Hold:
 
@@ -43,4 +43,8 @@ We deploy the front-end in the s3 bucket by running:
 
 ## Workflows:
 
-workflows was provided by Udacity in the starter code. It orders the jobs of the pipeline. and the create the manual approval for production
+Workflows was provided by Udacity in the starter code. It orders the jobs of the pipeline. and the create the manual approval for production
+
+## Pipeline Overview:
+
+![RDS](/public/PipelineDiagram.png)
