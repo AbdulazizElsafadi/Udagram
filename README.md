@@ -52,9 +52,11 @@ Provision the necessary AWS services needed for running the application:
    ![Home](/public/HomePage.png)
 5. Udagram Project in Circle CI:
    ![Udagram](/public/UdagramProject.png)
-6. Picture of the last successful execution of the pipeline:
+6. Environment Variables:
+   ![Udagram](/public/environment_variables.png)
+7. Picture of the last successful execution of the pipeline:
    ![Last Build](/public/LastSuccessfulBuild.png)
-7. Build Phase
+8. Build Phase
    ![Build](/public/build.png)
-8. Deployment Phase
+9. Deployment Phase
    ![Deployment](/public/deploy.png)
